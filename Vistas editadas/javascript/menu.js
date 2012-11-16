@@ -273,6 +273,75 @@ $('#menu').addClass('js-active');if($.browser.msie&&parseInt($.browser.version)=
 
 
 
-// function show_menu(){
-// 	$('#admin').
-// }
+function more_files(){
+	$('#files').append('<input type="file" name="data[coursedata][0]" id="coursedata0"></input>');
+}
+
+function message_files(){
+	$('#error_files').append('<p style="color: green;background: whiteSmoke;">CC6908-1.txt cargado exitosamente</p>');
+	$('#error_files').append('<p style="color: orange;background: whiteSmoke;">CC6908-2.txt ya había sido ingresado</p>');
+	$('#error_files').append('<p style="color: red;background: whiteSmoke;">CC6908-3.txt con errores, no pudo ser ingresado</p>');
+
+	$('#error_files').focus();
+}
+
+function asociate1(calling){
+	var tr = calling.parentNode.parentNode;
+	var table = tr.parentNode;
+	console.log(table);
+
+
+	console.log(tr.lastChild);
+
+	tr.lastChild.previousSibling.innerHTML = '<a onclick="asociate2(this);">Asociar</a>';
+
+	var text = tr.innerHTML;
+
+	console.log(text);
+
+	$('#co-guide').append("<tr>" + text + "</tr>");
+
+	var text2 = tr.firstChild.nextSibling.innerHTML;
+	$('#teacher2').append("<tr><td>" + text2 + '</td>' + '</tr>'); //' <td class="actions"><a onclick=edit(this);>Editar</a></td></tr>');
+	table.removeChild(tr);
+}
+
+
+function asociate2(calling){
+	var tr = calling.parentNode.parentNode;
+	var table = tr.parentNode;
+	console.log(table);
+
+	console.log(tr.firstChild);
+
+	var text = tr.firstChild.nextSibling.innerHTML;
+
+	console.log(text);
+
+	$('#teacher').append("<tr><td>" + text2 + '</td>' + '</tr>'); //' <td class="actions"><a onclick=edit(this);>Editar</a></td></tr>');
+
+	table.removeChild(tr);
+}
+
+function edit(calling){
+	var tr = calling.parentNode.parentNode;
+	var table = tr.parentNode;
+	console.log(table);
+
+	console.log(tr.firstChild);
+
+
+	$('first-child');
+
+	tr.lastChild.previousSibling.innerHTML = '<a onclick="asociate1(this);">Asociar</a>';
+
+	var text = tr.firstChild.nextSibling.innerHTML;
+
+	console.log(tr.firstChild);
+
+	var select = '<td><select name="profesores" size="1"><option name=""></option><option name="">Andres Farias</option><option name="">Nelson Baloian</option><option name="" >Cecilia Bastarrica</option><option name="">Benjamin Bustos</option></select></td><td class="actions"><a onclick="asociate1(this);">Asociar</a></td>';
+
+	$('#guide').append("<tr><td>" + text + '</td>' + select + '</tr>');
+
+	table.removeChild(tr);
+}

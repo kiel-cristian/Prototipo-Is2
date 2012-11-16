@@ -59,29 +59,47 @@
 
   <br>
   <br>
+    <h3 id ="error_files" style="text-align:left;"></h3>
 
     <h1 style="text-align:left;">Importar Datos</h1>
 
-    <h2 style="text-align:left;">Semestre Otoño 2012</h2>
+    <h2 style="text-align:left;">E(Introducción al trabajo de título - CC6908 / CC69E)</h2>
+    <h3 style="text-align:left;">Semestre Otoño 2012</h3>
 
   <div class="index" style="margin-bottom: 40px;text-align: left;">
-    <fieldset>
+    <!-- <fieldset> -->
 
-        <h3 style="text-align:left;">Archivos <br></h3>
 
-        <p>
-          <input type="file" name="data[coursedata][0]" id="coursedata0"></input>
-        </p>
+      <h3 style="text-align:left;">Archivos <br></h3>
 
-        <br>
-        <br>
-        <a href="#">Agregar más archivos</a><br />
-        <br>
-    </fieldset>
+
+      <table style="width: 600px; background: white;">
+<!--           <tr>
+            <th>
+              Seleccione un archivo de datos de curso
+            </th>
+          </tr> -->
+          <tr>
+            <td>
+              <p id="files">
+                <input type="file" name="data[coursedata][0]" id="coursedata0"></input>
+              </p>
+            </td>
+
+          <tr style:"background: white;">
+            <td class="actions" style:"background: white;">
+              <!-- <input type="submit" value="Importar"> -->
+              <a onclick="more_files();">Agregar más archivos</a>
+              <a onclick="message_files();">Importar</a>
+            </td>
+          </tr>
+      </table>
+    <!-- </fieldset> -->
   </div>
 
   <div id="footer">
-    <a href="resumen.html" style="float: left;">Ir a Resumen</a>
+    <a href="notificaciones.html" style="float: left;"><- Volver a Notificaciones</a>
+    <a href="resumen.html" style="padding-right: 400px;"> Ir a Resumen</a>
     <a href="actual2.html" style="float: right;">Ir a Asociación de guías -></a><br />
   </div>
 

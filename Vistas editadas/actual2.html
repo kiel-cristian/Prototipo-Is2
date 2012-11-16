@@ -62,7 +62,8 @@
 
   <h1 style="text-align:left;">Asociaciones</h1>
 
-  <h2 style="text-align:left;">Semestre Otoño 2012</h2>
+  <h2 style="text-align:left;">E(Introducción al trabajo de título - CC6908 / CC69E)</h2>
+    <h3 style="text-align:left;">Semestre Otoño 2012</h3>
 
   <br>
   <br>
@@ -70,7 +71,7 @@
   <h3 style="text-align:left;">Asociar Guías</h3>
 
   <div class="index" style="margin-bottom: 40px;text-align: left;">
-    <table>
+    <table id="guide">
       <tr>
         <th>Nombre Alumno</th>
         <th>Seleccionar Profesor Guia</th>
@@ -78,46 +79,49 @@
       </tr>
 
       <tr>
-        <td>Mikhail Petrovich</td>
+        <td>Javier Cifuentes</td>
         <td>
           <select name="profesores" size="1">
-            <option name="" selected="selected">Nelson Baloian</option>
+            <option name="" ></option>
+            <option name="">Andres Farias</option>
+            <option name="" >Nelson Baloian</option>
             <option name="">Cecilia Bastarrica</option>
             <option name="">Benjamin Bustos</option>
-            <option name="">Andres Farias</option>
           </select>
         </td>
         <!-- <td><button name="asociar" value="Asociar" type="button">Asociar</button></td> -->
-        <td class="actions"><a href="">Asociar</a></td>
+        <td class="actions"><a onclick="asociate1(this);">Asociar</a></td>
       </tr>
 
       <tr>
         <td>Domingo MacBaren</td>
         <td>
           <select name="profesores" size="1">
+            <option name=""></option>
+            <option name="">Andres Farias</option>
             <option name="">Nelson Baloian</option>
-            <option name="" selected="selected">Cecilia
+            <option name="" >Cecilia
               Bastarrica</option>
             <option name="">Benjamin Bustos</option>
-            <option name="">Andres Farias</option>
           </select>
         </td>
         <!-- <td><button name="asociar" value="Asociar" type="button">Asociar</button></td> -->
-        <td class="actions"><a href="">Asociar</a></td>
+        <td class="actions"><a onclick="asociate1(this);">Asociar</a></td>
       </tr>
 
       <tr class="altrow">
         <td>Tomas Cruz</td>
         <td>
           <select name="profesores" size="1">
+            <option name=""></option>
+            <option name="">Andres Farias</option>
             <option name="">Nelson Baloian</option>
             <option name="">Cecilia Bastarrica</option>
             <option name="">Benjamin Bustos</option>
-            <option name="" selected="selected">Andres Farias</option>
           </select>
-          
+
         </td>
-        <td class="actions"><a href="">Asociar</a></td>
+        <td class="actions"><a onclick="asociate1(this);">Asociar</a></td>
         <!-- </td> -->
       </tr>
             <!-- </tbody> -->
@@ -127,7 +131,7 @@
   <h3 style="text-align:left;">Asociar Co-Guías</h3>
 
   <div class="index" style="margin-bottom: 40px;text-align: left;">
-    <table>
+    <table id="co-guide">
       <tr>
         <th>Nombre Alumno</th>
         <th>Seleccionar Profesor Co-Guia</th>
@@ -138,14 +142,15 @@
         <td>Mikhail Petrovich</td>
         <td>
           <select name="profesores" size="1">
+            <option name=""></option>
             <option name="">Nelson Baloian</option>
             <option name="">Cecilia Bastarrica</option>
             <option name="">Benjamin Bustos</option>
-            <option name="" selected="selected">Andres Farias</option>
+            <option name="" >Andres Farias</option>
           </select>
         </td>
         <!-- <td><button name="asociar" value="Asociar" type="button">Asociar</button></td> -->
-        <td class="actions"><a href="">Asociar</a></td>
+        <td class="actions"><a onclick="asociate2(this);">Asociar</a></td>
       </tr>
     </table>
   </div>
@@ -157,17 +162,29 @@
   <h3 style="text-align:left;">Nelson Baloian</h3>
 
   <div class="index" style="margin-bottom: 40px;text-align: left;">
-    <table>
+    <table id="teacher" style="width: 400px;">
       <tr>
-        <td>Mikhail Petrovich</td>
+        <td>Javier Astudillo</td>
         <!-- <td><button name="asociar" value="Asociar" type="button">Editar</button></td> -->
-        <td class="actions"><a href="">Editar</a></td>
+        <!-- <td class="actions"><a onclick="edit(this);">Editar</a></td> -->
+      </tr>
+    </table>
+  </div>
+
+  <h3 style="text-align:left;">Andrés Farias</h3>
+
+  <div class="index" style="margin-bottom: 40px;text-align: left;">
+    <table id="teacher2" style="width: 400px;">
+      <tr>
+        <td>Felipe Bravo</td>
+        <!-- <td><button name="asociar" value="Asociar" type="button">Editar</button></td> -->
+        <!-- <td class="actions"><a onclick="edit(this);">Editar</a></td> -->
       </tr>
     </table>
   </div>
 
   <div id="footer">
-    <a href="actual1.html" style="float: left;"> <- Ir a Importar Datos</a>
+    <a href="actual1.html" style="float: left;"> <- Volver a Importar Datos</a>
     <a href="resumen.html" style="padding-right: 400px;"> Ir a Resumen</a>
     <a href="actual3.html" style="float: rigth;">Ir a Pre-Informe -></a>
   </div>
