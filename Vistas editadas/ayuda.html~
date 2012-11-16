@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <title>actual1</title>
+    <title>Ayuda</title>
     <link href="img/favicon.ico" type="image/x-icon" rel="icon">
     <link href="img/favicon.ico" type="image/x-icon" rel="shortcut icon">
 
@@ -64,79 +64,58 @@
 
   
 
-    <h2 style="text-align:center;">Resumen</h2>
-
-    <br>
-    <br>
-
-    <h2 style="text-align:left;">Semestre Otoño 2012</h2>
+    <h2 style="text-align:left;">Instrucciones de uso del sitio</h2>
 
     <br>
     
-    
-  <div class="index" style="margin-bottom: 40px;">
+ <div class="index" style="text-align:left;">
+<h4 style="font-size: large;">Bienvenido a <b>MemoriasDCC</b>, sistema de seguimiento del proceso de titulación para el DCC.</h4>
+<br>
 
-    <h3 style="text-align:left;">Alumnos</h3>
-    <br>
+<div>¿Cómo utilizar <b>MemoriasDCC</b>?:</div>
+
+<br>
+<ul>
+  <li style="margin:10px;">Ir a la sección <b>Administrar &gt; Importar Datos</b> para cargar archivos provenientes de los cursos.</li>
+
+  <li style="margin:10px;">Ir a la sección <b>Administrar &gt; Alumnos</b> para visualizar los alumnos que se han ingresado al sistema.</li>
+  <li style="margin:10px;">Ir a la sección <b>Administrar &gt; Profesores</b> para visualizar los profesores que se han ingresado al sistema.</li>
+
+
+  
+    <li style="margin:10px;">Ir a la sección <b>Administrar &gt; Usuarios</b> para visualizar y editar usuarios del sistema y asociarles un grupo(admin1,admin2, etc.).</li>
+    <li style="margin:10px;">Ir a la sección <b>Administrar &gt; Grupos</b> para visualizar y editar grupos y sus permisos (administrador principal, administrador secundario, etc.).</li>
     
-    <table cellspacing="0" cellpadding="0">
-	  <tr>
-	      <th><a href="">Nombre</a></th>
-	      <th><a href="">Guia</a></th>
-	      <th><a href="">Co-Guia</a></th>
-	      <th><a href="">Pre-Informe</a></th>
-	      <th><a href="">Informe</a></th>
-	      <th><a href="">Observaciones</a></th>
-	      <th class="actions">Acciones</th>
-	  </tr>
-	  <tr class="altrow">
-	      <td>Mikhail Petrovich</td>
-	      <td>Andres Allen</td>
-	      <td></td>
-	      <td>A</td>
-	      <td>A</td>
-	      <td>TIENE</td>
-	      <td class="actions"><a href="">Ver Obs</a></td>
-	  </tr>
-	  <tr class="altrow">
-	      <td>Vicenzo Soto</td>
-	      <td>Benjamin Bustos</td>
-	      <td></td>
-	      <td>A</td>
-	      <td>A</td>
-	      <td>NO TIENE</td>
-	      <td class="actions"></td>
-	  </tr>
-	  <tr class="altrow">
-	      <td>Domingo MacBaren</td>
-	      <td>Nelson Baloian</td>
-	      <td>Javier Bustos</td>
-	      <td>A</td>
-	      <td>A</td>
-	      <td>TIENE</td>
-	      <td class="actions"><a href="">Ver Obs</a></td>
-	  </tr>
-	  <tr class="altrow">
-	      <td>Juan Perez</td>
-	      <td>Alex Michaels</td>
-	      <td></td>
-	      <td>A</td>
-	      <td>R</td>
-	      <td>TIENE</td>
-	      <td class="actions"><a href="">Ver Obs</a></td>
-	  </tr>
-</table>
     
-    </div>
+    
+    <li style="margin:10px;">Ir a la seccion <b>Semestres Anteriores</b> para navegar por realizaciones anteriores de los cursos y actualizar la información de sus hitos.</li>
+    <li style="margin:10px;">Ir a la seccion <b>Gráficas</b> para ver gráficos y resultados estadísticos del proceso.</li>
+    
+</ul> 
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+</div> 
+ 
     
     <br>
     <br>
-    
+<!--    
     <div id="footer">
       <a href="" style="float: left;">Ir a Administrar Semestre...</a>
       <a href="" style="float: right;">Ir a Etapa Actual...</a><br />
     </div>
-
+-->
   </div>
 </div>
 

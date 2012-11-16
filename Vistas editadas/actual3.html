@@ -1,173 +1,142 @@
-<?xml version="1.0" encoding="UTF-8"?>
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <title>actual3</title>
+    <title>Resumen</title>
+    <link href="img/favicon.ico" type="image/x-icon" rel="icon">
+    <link href="img/favicon.ico" type="image/x-icon" rel="shortcut icon">
 
-  </head>
+    <link rel="stylesheet" href="css/cake.generic.css" media="screen" />
+    <link rel="stylesheet" href="css/menu.css" media="screen" />
+
+    <script type="text/javascript" src="javascript/jquery.js"></script>
+    <script type="text/javascript" src="javascript/jquery-min-ui.js" ></script>
+    <script type="text/javascript" src="javascript/menu.js" ></script>
+    <script type="text/javascript" src="javascript/highcharts.js" ></script>
+
+    </head>
 <body>
-    
-<div id="content">Bienvenido <span style="font-weight: bold;">admin@gmail.com</span>,
-      <a href="login.html" class="parent"><span>salir</span></a></div>
 
-    
-<div id="menu">
-      <ul class="menu">
-        <li><a href="inicio.html" class=""><span>Inicio</span></a><br />
-        </li>
-        <li> <a href="#" class="parent"><span>Administracion</span></a><br />
-        </li>
-        <div>
-          <ul>
-            <li> <a href="adminusuarios.html" class=""><span>Usuarios</span></a><br />
-            </li>
-            <li> <a href="adminsemestre.html" class=""><span>Administrar
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                  Semestre</span></a><br />
-            </li>
-            <li><a href="adminprofesores" class=""><span>Profesores</span></a><br />
-            </li>
-          </ul>
-          <ul>
-            <li> <a href="adminperfil" class=""><span>Configuracion
-                  Cuenta</span></a><br />
-            </li>
-          </ul>
-        </div>
-        <li> <a href="graficas.html" class=""><span>Graficas</span></a><br />
-        </li>
-        <li><a href="#" class="parent"><span></span></a><a href="anteriores.html" class="parent"><span>Semestres
-              Anteriores</span></a></li>
-        <li><a href="ayuda.html" class="parent"><span>Ayuda</span></a></li>
-      </ul>
-    </div>
-
-    
-<div>
-      <h1>Resultados Pre-Informe<br />
-      </h1>
-      <h2>Semestre Otoño 2012<br />
-      </h2>
-      <br />
-      <div id="guias">
-        <h3>Evaluacion<br />
-        </h3>
-        <div>
-          <table border="1" style="width: 100%;">
-            <thead>
-              <tr>
-                <td>Nombre Alumno<br />
-                </td>
-                <td>Evaluacion Alumno<br />
-                </td>
-                <td>Agregar Observaciones<br />
-                </td>
-                <td>Eliminar Observaciones<br />
-                </td>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Mikhail Petrovich<br />
-                </td>
-                <td>
-                  <select name="evaluacion" size="1">
-                    <option name="">Aceptado</option>
-                    <option name="" selected="selected">Acept/Observaciones
-
-                    </option>
-                    <option name="">Rechazado</option>
-                    <option name="">No Entregado</option>
-                  </select>
-                  <br />
-                </td>
-                <td><button name="observacion" value="Agregar Obs" type="button">Agregar Obs</button><br />
-                </td>
-                <td><button name="eliminar" value="Agregar Obs" type="button">Eliminar Obs</button> </td>
-              </tr>
-              <tr>
-                <td>Domingo MacBaren<br />
-                </td>
-                <td>
-                  <select name="evaluacion" size="1">
-                    <option name="" selected="selected">Aceptado</option>
-                    <option name="">Acept/Observaciones </option>
-                    <option name="">Rechazado</option>
-                    <option name="">No Entregado</option>
-                  </select>
-                  <br />
-                </td>
-                <td><br />
-                </td>
-              </tr>
-              <tr>
-                <td>Tomas Cruz<br />
-                </td>
-                <td>
-                  <select name="evaluacion" size="1">
-                    <option name="">Aceptado</option>
-                    <option name="">Acept/Observaciones </option>
-                    <option name="" selected="selected">Rechazado</option>
-                    <option name="">No Entregado</option>
-                  </select>
-                  <br />
-                </td>
-                <td><button name="observacion" value="Agregar Obs" type="button">Agregar Obs</button> </td>
-                <td><button name="eliminar" value="Agregar Obs" type="button">Eliminar Obs</button> </td>
-              </tr>
-            </tbody>
-          </table>
-          <br />
-          <br />
-        </div>
+<div id="container">
+  <div id="content">
+      <div style="float:right;">
+        <p>Bienvenido <b>admin@gmail.com</b>, <a href="">salir</a></p>
       </div>
-      <div><a href="actual2.html">A Asociaciones</a> <a href="resumen.html">ir a Resumen...</a> <a href="actual4.html">A Informe Final</a> </div>
-    </div>
+    <br>
+    <br>
+    <div id="menu">
+        <ul class="menu">
+          <li><a href="inicio.html" class=""><span>Inicio</span></a> </li>
 
-  </body>
+          <li><a href="#" class="parent"><span>Administrar</span></a>
+              <div style="visibility: hidden; height: auto; overflow: visible; display: block;"><ul>
+
+                      <li>
+                          <a href="adminusuarios.html" class=""><span style="color: rgb(4, 52, 84);">Usuarios</span></a>
+                      </li>
+
+                      <li>
+                          <a href="adminprofesores.html" class=""><span style="color: rgb(4, 52, 84);">Profesores</span></a>
+                      </li>
+
+                       <li>
+                          <a href="adminsemestre.html" class=""><span style="color: rgb(4, 52, 84);">Administrar Semestre</span></a>
+                      </li>
+
+                       <li>
+                          <a href="adminperfil.html" class=""><span style="color: rgb(4, 52, 84);">Configurar Cuenta</span></a>
+                      </li>
+
+                       </ul></div>
+          </li>
+
+          <li> <a href="graficas.html" class=""><span>Graficas</span></a></li>
+          <li><a href="anteriores.html" class="parent"><span>Semestres Anteriores</span></a></li>
+          <li><a href="ayuda.html" class="parent"><span>Ayuda</span></a></li>
+        </ul>
+  </div>
+
+  <br>
+  <br>
+
+  <h1 style="text-align:left;">Resultados Pre-Informe</h1>
+
+  <h2 style="text-align:left;">Semestre Otoño 2012</h2>
+
+  <br>
+  <br>
+
+  <h3 style="text-align:left;">Evaluacion</h3>
+
+  <div class="index" style="margin-bottom: 40px;text-align: left;">
+    <table>
+      <tr>
+        <th>Nombre Alumno</th>
+        <th>Evaluacion Alumno</th>
+        <th>Agregar Observaciones</th>
+        <th>Eliminar Observaciones</th>
+      </tr>
+
+      <tr>
+        <td>Mikhail Petrovich</td>
+        <td>
+          <select name="evaluacion" size="1">
+            <option name="">Aceptado</option>
+            <option name="" selected="selected">Acept/Observaciones
+
+            </option>
+            <option name="">Rechazado</option>
+            <option name="">No Entregado</option>
+          </select>
+        </td>
+        <!-- <td><button name="observacion" value="Agregar Obs" type="button">Agregar Obs</button> </td> -->
+        <td class="actions"><a href="">Agregar Observación</a></td>
+        <!-- <td><button name="eliminar" value="Agregar Obs" type="button">Eliminar Obs</button> </td> -->
+        <td class="actions"><a href="">Eliminar Observación</a></td>
+      </tr>
+
+      <tr>
+        <td>Domingo MacBaren</td><td>
+          <select name="evaluacion" size="1">
+            <option name="" selected="selected">Aceptado</option>
+            <option name="">Acept/Observaciones </option>
+            <option name="">Rechazado</option>
+            <option name="">No Entregado</option>
+          </select>
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>Tomas Cruz</td>
+        <td>
+          <select name="evaluacion" size="1">
+            <option name="">Aceptado</option>
+            <option name="">Acept/Observaciones </option>
+            <option name="" selected="selected">Rechazado</option>
+            <option name="">No Entregado</option>
+          </select>
+
+        </td>
+        <!-- <td><button name="observacion" value="Agregar Obs" type="button">Agregar Obs</button> </td> -->
+        <td class="actions"><a href="">Agregar Observación</a></td>
+        <!-- <td><button name="eliminar" value="Agregar Obs" type="button">Eliminar Obs</button> </td> -->
+        <td class="actions"><a href="">Eliminar Observación</a></td>
+      </tr>
+    </table>
+  </div>
+
+
+  <div id="footer">
+    <a href="actual2.html" style="float: left;"><- Ir a Asociaciones</a>
+    <a href="resumen.html" style="padding-right: 400px;"> Ir a Resumen</a>
+    <a href="actual4.html" style="float: rigth;">Ir a Informe Final -></a>
+  </div>
+
+  </div>
+</div>
+
+</body>
 </html>

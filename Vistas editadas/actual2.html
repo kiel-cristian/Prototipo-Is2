@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <title>actual2</title>
+    <title>Resumen</title>
     <link href="img/favicon.ico" type="image/x-icon" rel="icon">
     <link href="img/favicon.ico" type="image/x-icon" rel="shortcut icon">
 
@@ -15,170 +15,164 @@
     <script type="text/javascript" src="javascript/menu.js" ></script>
     <script type="text/javascript" src="javascript/highcharts.js" ></script>
 
-  </head>
+    </head>
 <body>
-    
-<div id="content">Bienvenido <span style="font-weight: bold;">admin@gmail.com</span>,
-      <a href="login.html" class="parent"><span>salir</span></a></div>
 
-    
-<div id="menu">
-      <ul class="menu">
-        <li><a href="inicio.html" class=""><span>Inicio</span></a><br /> </li>
-
-        <li><a href="#" class="parent"><span>Administrar</span></a>
-            <div style="visibility: hidden; height: auto; overflow: visible; display: block;"><ul>
-
-                    <li>
-                        <a href="#" class=""><span style="color: rgb(4, 52, 84);">Usuarios</span></a>
-                    </li>
-
-                    <li>
-                        <a href="#" class=""><span style="color: rgb(4, 52, 84);">Profesores</span></a>
-                    </li>
-
-                     <li>
-                        <a href="#" class=""><span style="color: rgb(4, 52, 84);">Administrar Semestre</span></a>
-                    </li>
-
-                     <li>
-                        <a href="#" class=""><span style="color: rgb(4, 52, 84);">Administrar Cuenta</span></a>
-                    </li>
-
-                     </ul></div>
-        </li>
-
-        <li> <a href="graficas.html" class=""><span>Graficas</span></a></li>
-        <li><a href="anteriores.html" class="parent"><span>Semestres Anteriores</span></a></li>
-        <li><a href="ayuda.html" class="parent"><span>Ayuda</span></a></li>
-      </ul>
- <div>
-
-<fieldset>
-<div>
-      <h1>Asociaciones</h1>
-      <h2>Semestre Otoño 2012<br />
-      </h2>
-      <br />
-      <div id="guias">
-        <h3>Asociar Guias </h3>
-        <div>
-          <table cellpadding="0" cellspacing="0" style="width: 100%;">
-            <thead>
-              <tr>
-                <th>Nombre Alumno<br />
-                </th>
-                <th>Seleccionar Profesor Guia<br />
-                </th>
-                <th>Confirmar<br />
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Mikhail Petrovich<br />
-                </td>
-                <td>
-                  <select name="profesores" size="1">
-                    <option name="" selected="selected">Nelson Baloian</option>
-                    <option name="">Cecilia Bastarrica</option>
-                    <option name="">Benjamin Bustos</option>
-                    <option name="">Andres Farias</option>
-                  </select>
-                  <br />
-                </td>
-                <td><button name="asociar" value="Asociar" type="button">Asociar</button><br />
-                </td>
-              </tr>
-              <tr>
-                <td>Domingo MacBaren<br />
-                </td>
-                <td>
-                  <select name="profesores" size="1">
-                    <option name="">Nelson Baloian</option>
-                    <option name="" selected="selected">Cecilia
-                      Bastarrica</option>
-                    <option name="">Benjamin Bustos</option>
-                    <option name="">Andres Farias</option>
-                  </select>
-                  <br />
-                </td>
-                <td><button name="asociar" value="Asociar" type="button">Asociar</button>
-                </td>
-              </tr>
-              <tr>
-                <td>Tomas Cruz<br />
-                </td>
-                <td>
-                  <select name="profesores" size="1">
-                    <option name="">Nelson Baloian</option>
-                    <option name="">Cecilia Bastarrica</option>
-                    <option name="">Benjamin Bustos</option>
-                    <option name="" selected="selected">Andres Farias</option>
-                  </select>
-                  <br />
-                </td>
-                <td><button name="asociar" value="Asociar" type="button">Asociar</button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <br />
-          <br />
-        </div>
+<div id="container">
+  <div id="content">
+      <div style="float:right;">
+        <p>Bienvenido <b>admin@gmail.com</b>, <a href="">salir</a></p>
       </div>
-      <div id="coguias">
-        <h3>Asociar Co-Guias </h3>
-        <div>
-          <table cellpadding="0" cellspacing="0" style="width: 100%;">
-            <thead>
-              <tr>
-                <th>Nombre Alumno<br />
-                </th>
-                <th>Seleccionar Profesor Co-Guia<br />
-                </th>
-                <th>Confirmar<br />
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Mikhail Petrovich<br />
-                </td>
-                <td>
-                  <select name="profesores" size="1">
-                    <option name="">Nelson Baloian</option>
-                    <option name="">Cecilia Bastarrica</option>
-                    <option name="">Benjamin Bustos</option>
-                    <option name="" selected="selected">Andres Farias</option>
-                  </select>
-                  <br />
-                </td>
-                <td><button name="asociar" value="Asociar" type="button">Asociar</button><br />
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <br />
-          <br />
-        </div>
-      </div>
-      <div id="alumnos">
-        <h2> Alumnos Guiados por profesor</h2>
-        <h3> Nelson Baloian </h3>
-              <table cellpadding="0" cellspacing="0" style="width: 800px;">
-                <tr>
-                  <td>Mikhail Petrovich</td>
-                  <td><button name="asociar" value="Asociar" type="button">Asociar</button></td>
-                </tr>
-              </table>
-      </div>
-</div>
-</fieldset>
+    <br>
+    <br>
+    <div id="menu">
+        <ul class="menu">
+          <li><a href="inicio.html" class=""><span>Inicio</span></a> </li>
 
-<div id="footer_link">
-  <a href="actual1.html"> <- A Importar Datos</a>
-  <a href="resumen.html"> Ir a Resumen...</a> <a href="actual3.html">Ir a Pre-Informe -></a>
+          <li><a href="#" class="parent"><span>Administrar</span></a>
+              <div style="visibility: hidden; height: auto; overflow: visible; display: block;"><ul>
+
+                      <li>
+                          <a href="adminusuarios.html" class=""><span style="color: rgb(4, 52, 84);">Usuarios</span></a>
+                      </li>
+
+                      <li>
+                          <a href="adminprofesores.html" class=""><span style="color: rgb(4, 52, 84);">Profesores</span></a>
+                      </li>
+
+                       <li>
+                          <a href="adminsemestre.html" class=""><span style="color: rgb(4, 52, 84);">Administrar Semestre</span></a>
+                      </li>
+
+                       <li>
+                          <a href="adminperfil.html" class=""><span style="color: rgb(4, 52, 84);">Configurar Cuenta</span></a>
+                      </li>
+
+                       </ul></div>
+          </li>
+
+          <li> <a href="graficas.html" class=""><span>Graficas</span></a></li>
+          <li><a href="anteriores.html" class="parent"><span>Semestres Anteriores</span></a></li>
+          <li><a href="ayuda.html" class="parent"><span>Ayuda</span></a></li>
+        </ul>
+  </div>
+
+  <br>
+  <br>
+
+  <h1 style="text-align:left;">Asociaciones</h1>
+
+  <h2 style="text-align:left;">Semestre Otoño 2012</h2>
+
+  <br>
+  <br>
+
+  <h3 style="text-align:left;">Asociar Guías</h3>
+
+  <div class="index" style="margin-bottom: 40px;text-align: left;">
+    <table>
+      <tr>
+        <th>Nombre Alumno</th>
+        <th>Seleccionar Profesor Guia</th>
+        <th>Confirmar</th>
+      </tr>
+
+      <tr>
+        <td>Mikhail Petrovich</td>
+        <td>
+          <select name="profesores" size="1">
+            <option name="" selected="selected">Nelson Baloian</option>
+            <option name="">Cecilia Bastarrica</option>
+            <option name="">Benjamin Bustos</option>
+            <option name="">Andres Farias</option>
+          </select>
+        </td>
+        <!-- <td><button name="asociar" value="Asociar" type="button">Asociar</button></td> -->
+        <td class="actions"><a href="">Asociar</a></td>
+      </tr>
+
+      <tr>
+        <td>Domingo MacBaren</td>
+        <td>
+          <select name="profesores" size="1">
+            <option name="">Nelson Baloian</option>
+            <option name="" selected="selected">Cecilia
+              Bastarrica</option>
+            <option name="">Benjamin Bustos</option>
+            <option name="">Andres Farias</option>
+          </select>
+        </td>
+        <!-- <td><button name="asociar" value="Asociar" type="button">Asociar</button></td> -->
+        <td class="actions"><a href="">Asociar</a></td>
+      </tr>
+
+      <tr class="altrow">
+        <td>Tomas Cruz</td>
+        <td>
+          <select name="profesores" size="1">
+            <option name="">Nelson Baloian</option>
+            <option name="">Cecilia Bastarrica</option>
+            <option name="">Benjamin Bustos</option>
+            <option name="" selected="selected">Andres Farias</option>
+          </select>
+          
+        </td>
+        <td class="actions"><a href="">Asociar</a></td>
+        <!-- </td> -->
+      </tr>
+            <!-- </tbody> -->
+    </table>
+  </div>
+
+  <h3 style="text-align:left;">Asociar Co-Guías</h3>
+
+  <div class="index" style="margin-bottom: 40px;text-align: left;">
+    <table>
+      <tr>
+        <th>Nombre Alumno</th>
+        <th>Seleccionar Profesor Co-Guia</th>
+        <th>Confirmar</th>
+      </tr>
+
+      <tr>
+        <td>Mikhail Petrovich</td>
+        <td>
+          <select name="profesores" size="1">
+            <option name="">Nelson Baloian</option>
+            <option name="">Cecilia Bastarrica</option>
+            <option name="">Benjamin Bustos</option>
+            <option name="" selected="selected">Andres Farias</option>
+          </select>
+        </td>
+        <!-- <td><button name="asociar" value="Asociar" type="button">Asociar</button></td> -->
+        <td class="actions"><a href="">Asociar</a></td>
+      </tr>
+    </table>
+  </div>
+
+  <h2 style="text-align:left;">Alumnos guiados por profesor</h2>
+
+  <br><br>
+
+  <h3 style="text-align:left;">Nelson Baloian</h3>
+
+  <div class="index" style="margin-bottom: 40px;text-align: left;">
+    <table>
+      <tr>
+        <td>Mikhail Petrovich</td>
+        <!-- <td><button name="asociar" value="Asociar" type="button">Editar</button></td> -->
+        <td class="actions"><a href="">Editar</a></td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="footer">
+    <a href="actual1.html" style="float: left;"> <- Ir a Importar Datos</a>
+    <a href="resumen.html" style="padding-right: 400px;"> Ir a Resumen</a>
+    <a href="actual3.html" style="float: rigth;">Ir a Pre-Informe -></a>
+  </div>
+
+  </div>
 </div>
 
 </body>

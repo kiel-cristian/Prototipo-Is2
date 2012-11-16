@@ -1,67 +1,102 @@
-<?xml version="1.0" encoding="UTF-8"?>
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <title>inicio</title>
+    <title>Inicio</title>
+    <link href="img/favicon.ico" type="image/x-icon" rel="icon">
+    <link href="img/favicon.ico" type="image/x-icon" rel="shortcut icon">
 
-  </head>
+    <link rel="stylesheet" href="css/cake.generic.css" media="screen" />
+    <link rel="stylesheet" href="css/menu.css" media="screen" />
+
+    <script type="text/javascript" src="javascript/jquery.js"></script>
+    <script type="text/javascript" src="javascript/jquery-min-ui.js" ></script>
+    <script type="text/javascript" src="javascript/menu.js" ></script>
+    <script type="text/javascript" src="javascript/highcharts.js" ></script>
+
+    </head>
 <body>
-    
-<div id="content">Bienvenido, <span style="font-weight: bold;">admin@gmail.com<span style="font-weight: bold;"></span></span> <a href="login.html" class="parent"><span>salir</span></a></div>
 
-    
-<div id="menu">
+<div id="container">
+  <div id="content">
+    <div style="float:right;">
+      <p>Bienvenido <b>admin@gmail.com</b>, <a href="">salir</a></p>
+  </div>
+  <br>
+  <br>
+  <div id="menu">
       <ul class="menu">
-        <li><a href="inicio.html" class=""><span>Inicio</span></a><br />
+        <li><a href="inicio.html" class=""><span>Inicio</span></a><br /> </li>
+
+        <li><a href="#" class="parent"><span>Administrar</span></a>
+            <div style="visibility: hidden; height: auto; overflow: visible; display: block;"><ul>
+
+                    <li>
+                        <a href="adminusuarios.html" class=""><span style="color: rgb(4, 52, 84);">Usuarios</span></a>
+                    </li>
+
+                    <li>
+                        <a href="adminprofesores.html" class=""><span style="color: rgb(4, 52, 84);">Profesores</span></a>
+                    </li>
+
+                     <li>
+                        <a href="adminsemestre.html" class=""><span style="color: rgb(4, 52, 84);">Administrar Semestre</span></a>
+                    </li>
+
+                     <li>
+                        <a href="adminperfil.html" class=""><span style="color: rgb(4, 52, 84);">Configurar Cuenta</span></a>
+                    </li>
+
+                     </ul></div>
         </li>
-        <li> <a href="#" class="parent"><span>Administracion</span></a><br />
-        </li>
-        <div>
-          <ul>
-            <li> <a href="adminusuarios.html" class=""><span>Usuarios</span></a><br />
-            </li>
-            <li> <a href="adminsemestre.html" class=""><span>Administrar
 
-
-
-
-
-
-                  Semestre</span></a><br />
-            </li>
-            <li><a href="adminprofesores" class=""><span>Profesores</span></a><br />
-            </li>
-          </ul>
-          <ul>
-            <li> <a href="adminperfil" class=""><span>Configuracion
-                  Cuenta</span></a><br />
-            </li>
-          </ul>
-        </div>
-        <li> <a href="graficas.html" class=""><span>Graficas</span></a><br />
-        </li>
-        <li><a href="#" class="parent"><span></span></a><a href="anteriores.html" class="parent"><span>Semestres
-              Anteriores</span></a></li>
+        <li> <a href="graficas.html" class=""><span>Graficas</span></a></li>
+        <li><a href="anteriores.html" class="parent"><span>Semestres Anteriores</span></a></li>
         <li><a href="ayuda.html" class="parent"><span>Ayuda</span></a></li>
       </ul>
-    </div>
+ </div>
 
-    
-<div>
-      <h1>Semestre Otoño 2012</h1>
-      <div>
-        <h2>Curso</h2>
-        <div>E(Introduccion al Trabajo de Titulo) <a href="actual1.html">Administrar</a><br />
-        </div>
-        <div>F(Trabajo de Titulo) <a href="actual1.html">Administrar</a><br />
-        </div>
-        <div>H(Memoria de Titulo) <a href="actual1.html">Administrar</a></div>
-        <br />
-      </div>
-      <br />
-    </div>
+  <div class="index" style="margin-bottom: 40px;">
+    <h2 style="text-align:left;">Semestre Otoño 2012</h2>
+    <br>
 
-    
+        <table>
+          <tr class="altrow">
+            <th> Código</th>
+            <th> Acción</th>
+          </tr>
+
+          <tr>
+            <td>E(Introducción al Trabajo de Título)</td>
+            <td class="actions">
+              <a href="actual1.html">Administrar</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td>F(Trabajo de Título)</td>
+            <td class="actions">
+              <a href="actual1.html">Administrar</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td>H(Memoria de Titulo)</td>
+            <td class="actions">
+              <a href="actual1.html">Administrar</a>
+            </td>
+          </tr>
+        </table>
+  </div>
+
+
+  </div>
+</div>
+
+
   </body>
+</html>
+
+
 </html>
