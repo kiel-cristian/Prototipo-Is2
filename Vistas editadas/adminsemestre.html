@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <title>adminsemestre</title>
+    <title>Inicio</title>
     <link href="img/favicon.ico" type="image/x-icon" rel="icon">
     <link href="img/favicon.ico" type="image/x-icon" rel="shortcut icon">
 
@@ -18,9 +17,14 @@
     </head>
 <body>
 
-<div id="content">Bienvenido, <span style="font-weight: bold;">admin@gmail.com<span style="font-weight: bold;"></span></span> <a href="login.html" class="parent"><span>salir</span></a></div>
-
-<div id="menu">
+<div id="container">
+  <div id="content">
+    <div style="float:right;">
+      <p>Bienvenido <b>admin@gmail.com</b>, <a href="">salir</a></p>
+  </div>
+  <br>
+  <br>
+  <div id="menu">
       <ul class="menu">
         <li><a href="inicio.html" class=""><span>Inicio</span></a><br /> </li>
 
@@ -50,31 +54,46 @@
         <li><a href="anteriores.html" class="parent"><span>Semestres Anteriores</span></a></li>
         <li><a href="ayuda.html" class="parent"><span>Ayuda</span></a></li>
       </ul>
+ </div>
 
-<div class="index" style="margin-bottom: 40px;">
-  <fieldset>
-  
-  <h2>Administrar Semestre</h2>
-  <br/>
-  <h3>Modificar Semestre Actual</h3>
-  <div style="width: 600px;">
-  <label style="display: inline;">Semestre</label>&nbsp;&nbsp;&nbsp;&nbsp;<select>
-  	<option>Primavera</option>
-  	<option>Oto&ntilde;o</option>
-  </select><br/>
-  <label style="display: inline;">A&ntilde;o</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select>
-  	<option>2012</option>
-  	<option>2011</option>
-  	<option>2010</option>
-  	<option>2009</option>
-  	<option>2008</option>
-  </select><br/>
-  <br/>
-  <input type="submit" value="Confirmar"/>
+  <div class="index" style="margin-bottom: 40px;">
+    <h2 style="text-align:left;">Administrar Semestre</h2>
+    <h3 style="text-align:left;">Modificar Semestre Actual</h3>
+
+
+    <table style="width: 600px;">
+      <tr class="altrow">
+        <td>
+          <label style="display: inline;">Semestre</label>&nbsp;&nbsp;&nbsp;&nbsp;
+          <select>
+            <option>Oto&ntilde;o</option>
+            <option>Primavera</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label style="display: inline;">A&ntilde;o</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <select>
+            <option></option>
+            <option>2012</option>
+            <option>2013</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr class="altrow">
+        <td>
+          <input type="submit" value="Confirmar"/>
+        </td>
+      </tr>
+    </table>
+
   </div>
-  <br/>
-	  
-</fieldset>
+
+
+  </div>
 </div>
 
 
