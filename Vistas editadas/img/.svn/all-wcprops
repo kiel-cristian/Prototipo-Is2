@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/cc5401g2/!svn/ver/7/app/webroot/img
+END
+test-pass-icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/cc5401g2/!svn/ver/7/app/webroot/img/test-pass-icon.png
+END
+test-skip-icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/cc5401g2/!svn/ver/7/app/webroot/img/test-skip-icon.png
+END
+cake.icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/cc5401g2/!svn/ver/7/app/webroot/img/cake.icon.png
+END
+test-error-icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/cc5401g2/!svn/ver/7/app/webroot/img/test-error-icon.png
+END
+test-fail-icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/cc5401g2/!svn/ver/7/app/webroot/img/test-fail-icon.png
+END
+cake.power.gif
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/cc5401g2/!svn/ver/7/app/webroot/img/cake.power.gif
+END
