@@ -109,12 +109,12 @@ ul, li {
 	text-align: right;
 }
 
-#footer_link {
+/*#footer_link {
 	clear: both;
 	padding: 6px 10px;
 	text-align: center;
 	margin-left: 350px;
-}
+}*/
 
 
 /** containers **/
@@ -336,6 +336,10 @@ input[type=submit] {
 	display: inline;
 	font-size: 110%;
 	width: auto;
+}
+
+input[type=file]{
+	padding-top: 0px;
 }
 form .submit input[type=submit] {
 	background:#62af56;
